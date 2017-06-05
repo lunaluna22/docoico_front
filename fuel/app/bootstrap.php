@@ -22,3 +22,6 @@ require COREPATH.'bootstrap.php';
 
 // Initialize the framework with the config file.
 \Fuel::init('config.php');
+
+// Set default charset
+ini_set('default_charset', 'UTF-8');
